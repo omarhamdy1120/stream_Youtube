@@ -1,8 +1,8 @@
  // Replace YOUR_API_KEY with your YouTube API key
- var API_KEY = 'AIzaSyDYYDLRjZuiH-yOftuD55fnqshhCp84EnA';
+ var API_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXX';
 
  // Replace YOUR_CHANNEL_ID with the ID of the YouTube channel you want to retrieve the live stream for
- var CHANNEL_ID = 'UCDF8swGFhmIOm0PY_iGopaA';
+ var CHANNEL_ID = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX';
  
  
  // Retrieve the latest active live stream for the channel
@@ -20,7 +20,7 @@
        `;
  
        // Embed the chat on the webpage
-       var chatUrl = `https://www.youtube.com/live_chat?v=${videoId}&embed_domain=localhost`;
+       var chatUrl = `https://www.youtube.com/live_chat?v=${videoId}&embed_domain=XXXXXXX`;
        document.getElementById('chat').setAttribute('src', chatUrl);
 
  // Check if the live stream has ended
